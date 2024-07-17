@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    vox-sizing: border-box;
+}
+body{
+    font-family: "Outfit';
+    background: linear-gradient;
+}
+
+.contactInfo {
+    width: 100%;
+    height: 100%;
+    background-color: #FCFBF4;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+form h3{
+    color: #555;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+form input, form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: #f5f5f5;
+    font-size: 16px;
+
+
+}
+
+form button{
+    padding: 15px;
+    background: #ff5361;
+    color: white;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+
+}
+
+.contact-left-title h2{
+    form-weight: 600;
+    color: #a363aa;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.contact-left-title hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: #a363aa;
+    border_radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-inputs {
+    width: 400px;
+    height: 50px;
+    border: solid 2px #7393B3;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 50px;
+}
+.contact-left textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+.contact-inputs:focus {
+    border: 2px solid #ff994f;
+
+}
+
+.contact-inputs: placeholder{
+    color: #a9a9a9;
+}
+
+.contact-left button{
+    display:flex;
+    align-items: center;
+    padding: 15px 30px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270deg, #B6D0E2, #7393B3);
+    cursor: pointer;
+}
+
+.contact-left button img{
+    height: 15px;
+}
+
+.contact-right img{
+    width: 500px;
+}
+
+@media (max-width: 800px) {
+    .contact-inputs{
+        width: 80vw;
+    }
+    .contact-right{
+        display: None;
+    }
+}
